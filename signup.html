@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>SIGN UP</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link href="http://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/refresh.js"></script>
+    </head>
+    <body>
+		<div class='login-form-1'>
+			<div class="head-info">
+				<h2>Sign Up</h2>
+			</div>
+			<form method="post" action="signup.php" class="txt-center">
+				<input type="text" value="User Name" 
+				onfocus="this.value='';" 
+				onblur="if(this.value == ''){this.value='User Name';}" 
+				name="username"/>
+				<input type='text' value="Password"
+				onfocus="this.value=''; this.type='password';"  onblur="if(this.value == ''){this.value='Password';}"
+				name="password"/>
+				<input type='text' value="Re-enter Password"
+				onfocus="this.value=''; this.type='password';"  onblur="if(this.value == ''){this.value='Re-enter Password';}"
+				name="reenterpw"/>
+				<img id='verify' src="verifyCode.php" onclick="javascript:this.src='verifyCode.php'"/>
+				<p style="color:white;"> Click on picture to refresh</p>
+				<input type="text" value="Verify Code" 
+				onfocus="this.value='';"  onblur="if(this.value == ''){this.value='Password';}"name="verifycode"/><br>
+				<input type="submit" value="Submit"/>
+			</form>
+			<div class="password">
+			<a href='index.php'>Login</a>
+			</div>
+		</div>
+    </body>
+</html>

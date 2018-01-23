@@ -1,0 +1,17 @@
+*{
+	padding:0;
+	margin:0;
+}
+.unlogin{
+	font-family: Georgia;
+	text-align:center;
+	background-color:rgb(135,193,184);
+	color:white;
+	font-size:25px;
+	padding:50px;
+	margin:auto;
+	height:100%;
+}
+.unlogin a:hover{
+	color:black;
+}

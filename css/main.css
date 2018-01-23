@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:5px 0 5px 0;
+}
+body{
+    font-family: Georgia;
+    text-align:center;
+    background-color:rgb(135,193,184);
+    font-size:15px;
+    color:white;
+}
+.main{
+    font-size:25px;
+    padding:50px;
+    margin:auto;
+}
+@media (max-width:640px){
+    .main{
+        width:100%;
+        font-size:30px;
+        background-color:rgb(135,193,184);
+        color:white;
+        padding:20px;
+        height:100%;
+        font-size:40px;
+    }
+}
