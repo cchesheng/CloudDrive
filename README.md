@@ -15,3 +15,4 @@ Other things want to use in the further development:
   3. Better UI/UX design
   4. Consider security
   
+The project was testing and running in a localhost environment that provided by WampServer.
