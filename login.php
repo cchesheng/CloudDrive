@@ -44,7 +44,7 @@
 							$_SESSION['user']=$usernamemd5;
 							$_SESSION['id']=$username;
 							$_SESSION['main']="file/".$usernamemd5;
-							$_SESSION['ipadress']='192.168.10.190';
+							$_SESSION['ipadress']='localhost';
 							$_SESSION['sub']='';
 							if(empty($_POST['checkbox'])){
 								exit;

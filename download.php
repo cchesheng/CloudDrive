@@ -18,9 +18,9 @@
 	}	
 	session_start();
 	if(!isset($_SESSION['user'])){
-		echo "<html><head><link rel="stylesheet" href="css/ulstyle.css"/></head></html>";
+		echo "<html><head><link rel='stylesheet' href='css/ulstyle.css'/></head>";
 		echo "<div class='unlogin'>Please Login first!<br>";
-		echo "<a href='index.php'>Login</a></div>";
+		echo "<a href='index.php'>Login</a></div></html>";
 		exit;
 	}
 	$add=$_SESSION['main'].$_SESSION['sub'];
